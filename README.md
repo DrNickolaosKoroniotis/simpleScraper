@@ -4,6 +4,7 @@ Simple python-implemented scraper and crawler.
 This software is a simple scraper and crawler I implemented, specifically for retrieving text from Wikipedia articles, primarily for NLP experimentation.
 Before any actions can take place, simpleScraper checks the *robots.txt* file and retrieves any **allowed** and **disallowed** paths.
 It provides a terminal interface, with a number of options that control how the text will be stored, if crawling is to be performed and to what extent.
+The code utilised the **BeautifulSoup** module for parsing the target sites, and the **requests** module for retrieving them.
 ## Options
 
     1.  -h, --help: show this help message and exit
